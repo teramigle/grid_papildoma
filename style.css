@@ -1,0 +1,97 @@
+body {
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 350px 350px;
+    grid-template-columns: 300px 300px 300px;
+    grid-gap: 40px;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.box {
+    background: #F9F7F6;
+    display: grid;
+    grid-template-rows: 130px 20px 20px 65px 65px 50px;
+    grid-template-columns: 30px 120px 120px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 1px #C8C8C8;
+    overflow: hidden;
+}
+
+.img {
+    grid-area: 1 / 1 / 3 / 5;
+    background-image: url('photo1.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.asorti {
+    background-image: url('images/photo1.jpeg');
+}
+
+.espresso {
+    background-image: url('images/photo2.jpeg');
+}
+
+.americana {
+    background-image: url('images/photo3.jpeg');
+}
+
+.macchiato {
+    background-image: url('images/photo4.jpeg');
+}
+
+.breve {
+    background-image: url('images/photo5.jpeg');
+}
+
+.cappuccino {
+    background-image: url('images/photo6.jpeg');
+}
+
+.banner {
+    grid-area: 2 / 2 / 4 / 4;
+    background-color: #38220F;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.place {
+    grid-area: 4 / 1 / 5 / 3;
+}
+
+.people {
+    grid-area: 4 / 3 / 5 / 5;
+}
+
+.price {
+    grid-area: 5 / 1 / 6 / 3;
+}
+
+.time {
+    grid-area: 5 / 3 / 6 / 5;
+}
+
+.info {
+    padding: 15px 10px;
+}
+
+.material-icons {
+    padding-right: 10px;
+    vertical-align: bottom;
+    
+}
+
+.order {
+    grid-area: 6 / 1 / 7 / 5;
+    background-color: #DBC1AC;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
